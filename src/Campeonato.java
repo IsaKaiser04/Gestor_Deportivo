@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-class Campeonato {
+public class Campeonato {
     int nroCampeonato;
     int nroClubs;
     Date fechaInicio;
@@ -37,5 +37,4 @@ class Campeonato {
         resultadosList.add(resultado);
         tablaPosiciones.actualizarPosiciones();
     }
-
 }

@@ -1,7 +1,7 @@
 
 import java.util.Date;
 
-class InscripcionEquipo {
+public class InscripcionEquipo {
     int idInscripcion;
     Date fechaInscripcion;
     Equipo equipo;

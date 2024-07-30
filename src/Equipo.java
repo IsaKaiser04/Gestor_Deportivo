@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Equipo {
+public class Equipo {
     int nroRegistro;
     String nombre;
     String genero;
     String categoria;
-    private int puntos; // Atributo para almacenar puntos
+    private int puntos;
     List<Jugador> jugadorList;
 
     public Equipo(int nroRegistro, String nombre, String genero, String categoria) {
@@ -14,7 +14,7 @@ class Equipo {
         this.nombre = nombre;
         this.genero = genero;
         this.categoria = categoria;
-        this.puntos = 0; // Inicializar puntos en 0
+        this.puntos = 0;
         this.jugadorList = new ArrayList<>();
     }
 
@@ -32,6 +32,6 @@ class Equipo {
 
     @Override
     public String toString() {
-            return nombre + " - Puntos: " + puntos;
+        return nombre + " - Puntos: " + puntos;
     }
 }

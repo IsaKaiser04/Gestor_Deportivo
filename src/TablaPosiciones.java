@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
-class TablaPosiciones {
+public class TablaPosiciones {
     Date fechaActualizacion;
     List<Equipo> equiposList;
 
@@ -20,17 +20,15 @@ class TablaPosiciones {
     }
 
     public void actualizarPosiciones() {
-    // Ordena los equipos por puntos de mayor a menor
         Collections.sort(equiposList, new Comparator<Equipo>() {
             @Override
             public int compare(Equipo e1, Equipo e2) {
                 return Integer.compare(e2.getPuntos(), e1.getPuntos());
             }
-        }
-    );
+        });
 
-    fechaActualizacion = new Date(); // Actualizar la fecha
-}
+        fechaActualizacion = new Date(); // Actualizar la fecha
+    }
 
     public void mostrarTabla() {
         System.out.println("Tabla de Posiciones:");
@@ -38,5 +36,4 @@ class TablaPosiciones {
             System.out.println(equipo);
         }
     }
-
 }

@@ -1,7 +1,5 @@
 
-
-
-class Jugador extends Persona {
+public class Jugador extends Persona {
     int jugadorId;
     String categoria;
 
@@ -11,3 +9,5 @@ class Jugador extends Persona {
         this.categoria = categoria;
     }
 }
+
+

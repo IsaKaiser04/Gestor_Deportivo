@@ -1,4 +1,4 @@
-class Resultado {
+public class Resultado {
     Equipo equipo1;
     Equipo equipo2;
     int golesEquipo1;
