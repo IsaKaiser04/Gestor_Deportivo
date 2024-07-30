@@ -33,7 +33,9 @@ class Campeonato {
     }
 
     public void registrarResultado(Resultado resultado) {
+        resultado.actualizarResultados();
         resultadosList.add(resultado);
         tablaPosiciones.actualizarPosiciones();
     }
+
 }

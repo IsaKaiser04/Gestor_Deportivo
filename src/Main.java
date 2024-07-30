@@ -1,4 +1,7 @@
+
 import java.util.Date;
+
+
 
 public class Main {
     public static void main(String[] args) {
@@ -33,19 +36,17 @@ public class Main {
         campeonato2.registrarInscripcion(inscripcion2);
 
         // Crear resultados y registrar empates y victorias
-        Resultado resultado1 = new Resultado(equipo1, equipo2, true); // Empate
+        Resultado resultado1 = new Resultado(equipo1, equipo2, 2, 2); // Empate
         campeonato1.registrarResultado(resultado1);
 
-        Resultado resultado2 = new Resultado(equipo1, equipo2, false); // Victoria para equipo1
+        Resultado resultado2 = new Resultado(equipo1, equipo2, 3, 1); // Victoria para equipo1
         campeonato2.registrarResultado(resultado2);
 
         // Mostrar tablas de posiciones
         System.out.println("Tabla de Posiciones del Campeonato 1:");
-        campeonato1.tablaPosiciones.actualizarPosiciones();
-        // Aquí deberías imprimir la tabla de posiciones de manera adecuada.
+        campeonato1.tablaPosiciones.mostrarTabla();
 
         System.out.println("Tabla de Posiciones del Campeonato 2:");
-        campeonato2.tablaPosiciones.actualizarPosiciones();
-        // Aquí deberías imprimir la tabla de posiciones de manera adecuada.
+        campeonato2.tablaPosiciones.mostrarTabla();
     }
 }

@@ -1,12 +1,13 @@
+
 import java.util.Date;
 
 class InscripcionEquipo {
-    int inscripcionEquipoId;
+    int idInscripcion;
     Date fechaInscripcion;
     Equipo equipo;
 
-    public InscripcionEquipo(int inscripcionEquipoId, Date fechaInscripcion, Equipo equipo) {
-        this.inscripcionEquipoId = inscripcionEquipoId;
+    public InscripcionEquipo(int idInscripcion, Date fechaInscripcion, Equipo equipo) {
+        this.idInscripcion = idInscripcion;
         this.fechaInscripcion = fechaInscripcion;
         this.equipo = equipo;
     }
