@@ -24,11 +24,13 @@ public class Main {
         ingresarResultados(campeonato1);
 
         // Mostrar tabla de posiciones
+        System.out.println("=================================================");
         System.out.println("Tabla de Posiciones del Campeonato 1:");
         campeonato1.tablaPosiciones.mostrarTabla();
     }
 
     private static Equipo crearEquipo(int nroRegistro, String nombre) {
+        System.out.println("=================================================");
         System.out.println("Ingrese la informacion para " + nombre);
         System.out.print("Genero: ");
         String genero = scanner.nextLine();
@@ -36,11 +38,12 @@ public class Main {
         String categoria = scanner.nextLine();
 
         Equipo equipo = new Equipo(nroRegistro, nombre, genero, categoria);
-
+        System.out.println("=================================================");
         System.out.print("Numero de jugadores: ");
         int numJugadores = Integer.parseInt(scanner.nextLine());
 
         for (int i = 1; i <= numJugadores; i++) {
+            System.out.println("=================================================");
             System.out.println("Ingrese la informacion para el Jugador " + i);
             System.out.print("Nombre: ");
             String nombreJugador = scanner.nextLine();
@@ -58,7 +61,7 @@ public class Main {
             String correo = scanner.nextLine();
             System.out.print("ID del Jugador: ");
             int jugadorId = Integer.parseInt(scanner.nextLine());
-            System.out.print("Categoría del Jugador: ");
+            System.out.print("Rol del Jugador: ");
             String categoriaJugador = scanner.nextLine();
 
             Jugador jugador = new Jugador(nombreJugador, cedula, nacionalidad, sexo, direccion, celular, correo, jugadorId, categoriaJugador);
@@ -69,6 +72,7 @@ public class Main {
     }
 
     private static void ingresarResultados(Campeonato campeonato) {
+        System.out.println("=================================================");
         System.out.println("Ingrese los resultados del partido:");
 
         System.out.print("Goles del Equipo 1: ");

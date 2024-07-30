@@ -13,12 +13,17 @@ public class Resultado {
 
     public void actualizarResultados() {
         if (golesEquipo1 > golesEquipo2) {
-            equipo1.agregarPuntos(3); // Victoria para equipo1
+            // Victoria para equipo1
+            equipo1.agregarPuntos(3);
+            equipo2.agregarPuntos(0);
         } else if (golesEquipo2 > golesEquipo1) {
-            equipo2.agregarPuntos(3); // Victoria para equipo2
+            // Victoria para equipo2
+            equipo1.agregarPuntos(0);
+            equipo2.agregarPuntos(3);
         } else {
-            equipo1.agregarPuntos(1); // Empate
-            equipo2.agregarPuntos(1); // Empate
+            // Empate
+            equipo1.agregarPuntos(1);
+            equipo2.agregarPuntos(1);
         }
     }
 }
