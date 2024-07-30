@@ -21,5 +21,6 @@ GESTOR DEPORTIVO
    ![image](https://github.com/user-attachments/assets/6bc95f68-685a-4203-880f-af632722be20)
 
    INGRESO DEL MARCADOR DONDE AL FINAL DEFINE UNA TABLA DE POSICIONES
+
    ![image](https://github.com/user-attachments/assets/0bdd3114-3f3e-427c-b066-cf9d47fffa73)
     
