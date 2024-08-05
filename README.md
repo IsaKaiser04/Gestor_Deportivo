@@ -11,6 +11,7 @@ GESTOR DEPORTIVO
    INGRESO DEL NUMERO DE PARTCIPANTES DE CADA EQUIPO Y LOS DATOS DE LOS MISMOS
    En esta seccion se ingresan a los jugadores pertenecientes a cada enquipo en donde se llenara la informacion respecto a los 
    participantes y respecto a a información de cada equipo.
+
    ![image](https://github.com/user-attachments/assets/1395e4e8-762a-4c79-8ebb-27c9d8b3f330)
    ![image](https://github.com/user-attachments/assets/6bc95f68-685a-4203-880f-af632722be20)
 
@@ -21,6 +22,7 @@ GESTOR DEPORTIVO
    ![image](https://github.com/user-attachments/assets/0bdd3114-3f3e-427c-b066-cf9d47fffa73)
 
    EJECUCION
+
    Para la ejecución de este prorama pues es necesario clonar en programa y dirigirse a o que a la clase main y ejecutarlo, de ahi 
    ingresar la informacion correspondiente segun lo que pida el programa, respecto a los equipos, integrantes y su marcador final que 
    deacuerdo a ello se dara la tabla de posiciones de ambos equipos.
