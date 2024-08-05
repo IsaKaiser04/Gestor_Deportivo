@@ -6,16 +6,8 @@ GESTOR DEPORTIVO
  - Implementacion del Diagrama
    De acuerdo a los requerimientos establecidos, en el que se pueda dictar si es un empate o victoria para uno u otro equipo de acuerdo al marcador, gestionar los jugadores
    de cada equipo y establecer una tabla de posiciones.
-    
-      Persona.java
-      Jugador.java
-      Equipo.java
-      Resultado.java
-      TablaPosiciones.java
-      InscripcionEquipo.java
-      Campeonato.java
-      Main.java
-    
+   - ![image](https://github.com/user-attachments/assets/a1742594-8bcd-41e4-b28b-4c6880f75bf3)
+
    INGRESO DEL NUMERO DE PARTCIPANTES DE CADA EQUIPO Y LOS DATOS DE LOS MISMOS
    ![image](https://github.com/user-attachments/assets/1395e4e8-762a-4c79-8ebb-27c9d8b3f330)
    ![image](https://github.com/user-attachments/assets/6bc95f68-685a-4203-880f-af632722be20)
