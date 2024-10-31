@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+// Estoy practicando para git Kraken jajajajjajaja
 public class Campeonato {
     int nroCampeonato;
     int nroClubs;
